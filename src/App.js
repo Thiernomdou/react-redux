@@ -1,12 +1,14 @@
-import Modal from "./components/Modal/Modal";
+import Counter from "./components/Counter";
 
 function App() {
 
+  //le hook useSelector permet de se connecter au state
+  //et pouvoir afficher les données
   
   return (
-    <>
-      <Modal />
-    </>
+    <div className="App">
+      <Counter />
+    </div>
   );
 }
 
